@@ -59,7 +59,7 @@ class Translator:
 
     def __init__(self, service_urls=DEFAULT_CLIENT_SERVICE_URLS, user_agent=DEFAULT_USER_AGENT,
                  raise_exception=DEFAULT_RAISE_EXCEPTION,
-                 proxies: typing.Dict[str, httpcore.SyncHTTPTransport] = None,
+                 proxies: typing.Dict[str, httpcore.AsyncHTTPProxy] = None,
                  timeout: Timeout = None,
                  http2=True,
                  use_fallback=False):

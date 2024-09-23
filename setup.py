@@ -35,14 +35,14 @@ def get_readme():
 
 def install():
     setup(
-        name='googletrans',
+        name='googletransfork',
         version=get_version(),
         description=get_description(),
         long_description=get_readme(),
         license='MIT',
-        author='SuHun Han',
+        author='SuHun Han, Suro',
         author_email='ssut' '@' 'ssut.me',
-        url='https://github.com/ssut/py-googletrans',
+        url='https://github.com/Suro4ek/py-googletrans',
         classifiers=['Development Status :: 5 - Production/Stable',
                      'Intended Audience :: Education',
                      'Intended Audience :: End Users/Desktop',

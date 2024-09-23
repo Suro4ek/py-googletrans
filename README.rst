@@ -4,7 +4,7 @@ Googletrans
 |GitHub license| |travis status| |Documentation Status| |PyPI version|
 |Coverage Status| |Code Climate|
 
-ANNOUNCEMENT: `v4.0 is planned <https://github.com/ssut/py-googletrans/issues/411>`_.
+ANNOUNCEMENT: `v1.0 is planned <https://github.com/ssut/py-googletrans/issues/411>`_.
 
 Googletrans is a **free** and **unlimited** python library that
 implemented Google Translate API. This uses the `Google Translate Ajax
@@ -67,13 +67,13 @@ any time.
 Installation
 ------------
 
-To install, either use things like pip with the package "googletrans"
-or download the package and put the "googletrans" directory into your
+To install, either use things like pip with the package "googletransfork"
+or download the package and put the "googletransfork" directory into your
 python path.
 
 .. code:: bash
 
-    $ pip install googletrans
+    $ pip install googletransfork
 
 Basic Usage
 -----------
